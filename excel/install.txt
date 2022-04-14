@@ -1,5 +1,6 @@
-Backup C:\Users\<user>\AppData\Roaming\Microsoft\Excel\XLSTART\Personal.xlsb file
-copy *.xlsm --> C:\Users\<user>\AppData\Roaming\Microsoft\Excel\XLSTART\Personal.xlsb
+Backup C:\Users\<user>\AppData\Roaming\Microsoft\Excel\XLSTART\Personal.xlsb file if any
+From Excel save *.xlsm as C:\Users\<user>\AppData\Roaming\Microsoft\Excel\XLSTART\Personal.xlsb
+
 Import ribbon "Excel - Personnalisations.exportedUI"
 
 Link icon to macro throuh UI
