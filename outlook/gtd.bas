@@ -125,4 +125,9 @@ Sub objPane_ModuleSwitch(ByVal CurrentModule As NavigationModule)
   Set objGroup = Nothing
   Set objModule = Nothing
  End Sub
+                                                
+ Sub delsig()
+    ' delete imposed signature which is in the last 5 lines of mail
+    SendKeys "^{END}+{UP}+{UP}+{UP}+{UP}+{UP}{DEL}", True
+End Sub
 
